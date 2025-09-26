@@ -5,7 +5,7 @@ const Messages = () => {
   const [selectedMessage, setSelectedMessage] = useState(null);
 
   const messages = [
-    { id: 1, sender: 'John Doe', subject: 'Welcome to NebulaDash', preview: 'Thank you for joining our platform...', time: '2h ago', unread: true },
+    { id: 1, sender: 'Cherif Bourechache', subject: 'Welcome to NebulaDash', preview: 'Thank you for joining our platform...', time: '2h ago', unread: true },
     { id: 2, sender: 'Support Team', subject: 'Your account has been verified', preview: 'We have successfully verified your account...', time: '1d ago', unread: false },
     { id: 3, sender: 'Jane Smith', subject: 'Project update', preview: 'Here is the latest update on our project...', time: '2d ago', unread: false },
   ];

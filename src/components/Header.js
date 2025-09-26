@@ -61,9 +61,9 @@ const Header = ({ onSidebarToggle }) => {
                 className="flex items-center space-x-2 focus:outline-none"
               >
                 <div className="h-8 w-8 rounded-full bg-gradient-to-br from-cosmic-500 to-nebula-500 flex items-center justify-center text-white font-medium">
-                  JD
+                  CB
                 </div>
-                <span className="hidden md:inline-block">John Doe</span>
+                <span className="hidden md:inline-block">Cherif Bourechache</span>
                 <ChevronDown size={16} className="hidden md:inline-block" />
               </button>
               {userMenuOpen && (

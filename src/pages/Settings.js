@@ -3,8 +3,8 @@ import { Settings, User, Bell, Shield, Sliders, Save } from 'react-feather';
 
 const SettingsPage = () => {
   const [settings, setSettings] = useState({
-    name: 'John Doe',
-    email: 'john@example.com',
+    name: 'Cherif Bourechache',
+    email: 'test@example.com',
     notifications: true,
     darkMode: false,
     language: 'en',
